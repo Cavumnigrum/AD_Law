@@ -130,9 +130,9 @@ user_choice = '''
 '''
 
 lst = list(os.listdir('./pics'))
+lst.sort()
 for i in range(len(lst)):
     user_choice += f'{lst[i]}\n'
-
 yn = ['Да', 'Нет']
 choose_dir = inline([x for x in range(1, 7)])
 dn = inline(yn)
