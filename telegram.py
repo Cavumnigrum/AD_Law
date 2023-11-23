@@ -330,5 +330,5 @@ async def user_naber(callback: types.CallbackQuery, state: FSMContext):
 
 
 if __name__ == "__main__":
-    keep_alive()
+    #keep_alive()
     executor.start_polling(dp, skip_updates=True)
